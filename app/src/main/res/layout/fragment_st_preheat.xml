@@ -1,0 +1,68 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Definition"
+                android:id="@+id/textVi2e2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tThe pre-heat store is the principal location where energy is delivered from the primary system. This is integrated with any other heat sources situated further ‘downstream’ in the DHW system. These additional heat sources top-up any temperature shortfall from the solar-generated pre-heat water before final distribution as DHW.  Sufficiently sized pre-heat storage avoids excessive utilisation losses and reduces the frequency of stagnation, which in turn increases the life of components. The pre-heat storage is abbreviated as ‘Vs’ and is measured in litres. See both “Combined Stores” and “Separate Stores.”"
+                android:id="@+id/text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nSizing"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tTo work correctly, there must be enough storage dedicated to the solar primary circuit that no other heating source will normally affect its operation. This refers to heat sources intended to contribute to average daily DHW demand (V); it does not mean manually-controlled sources used for occasional boost beyond mean daily DHW demand or automatic sterilisation routines. If an absorber is of the highest efficiency then, up to 100 litres per square metre of absorber for some collector types.
+\n\tTest method prEN 12977-3 provides a measure of the energy performance of a solar store. This standard allows the CO\u2082 mitigation of a proposed system to be calculated and from this information the most suitable store for a given solar primary system can be selected. A store for secondary water pre-heated by a solar system should be tested and independently certified to prEN 12977-3 or equivalent.
+\n\tThe dedicated solar pre-heat storage volume (Vs) should be at least the greater of
+\n\t \t(a) the anticipated average daily DHW demand; or
+\n\t \t(b) 35 litres per net m\u00B2  of absorber area.
+The consequences of a small heat store is shown here:"
+                android:id="@+id/texte" />
+
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/st_peheat"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

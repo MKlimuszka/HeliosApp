@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questions_array">
+        <item>Question 1 content</item>
+        <item>Question 2 content</item>
+        <item>Question 3 content</item>
+        <item>Question 4 content</item>
+        <item>Question 5 content</item>
+        <item>Question 6 content</item>
+    </string-array>
+</resources>

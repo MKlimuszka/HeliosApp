@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roof Coverings and Wind Loading"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tA key question concerns whether the solar collector will be located within or above the fixing surface. On a pitched tiled roof, for example, tiles can be removed and the collector set into the roof line, much like a typical skylight. Depending on the roof substructure, it may even be possible to achieve a flush finish not unlike patent glazing. The choice of ‘in-roof’ or ‘above-roof’ will greatly influence the choice of glazing and collector design since glass tube collectors are generally unsuitable for in-roof applications. Care should be taken that the flashing provided with a collector is compatible with localised roof coverings. In-roof applications invariably require hydraulic and sensor connections to the rear of the collector. Whilst this improves aesthetics, reduces heat loss and minimises vermin attack, there can be a downside where access to the underside is restricted (particularly with a room-in-a-roof or vaulted ceiling immediately below).
+
+\n\tIn above-roof installations, the combined structural loadings of wind and snow can create component loading varying from +2kN through to suction lift of -1kN. This compares to a static loading due to traditional roof coverings of a nominal  +0.03kN/m\u00B2. It is vital that the combined dynamic loadings of wind and snow are not channelled onto a fragile roof covering. Further considerations include allowance for thermal expansion, differential negative lifting on adjoining components, sufficient (over)lap of roof components, and the ability of the roof structures (i.e. rafters, purlins, trusses) to withstand the loadings.
+
+\n\tFor a pitched roof, a SDHW collector will require at least four mounting points, with loading taken through, and not onto, the roof covering – either to the rafters or via additional timber bearers using metallic brackets. Traditional timber battens or lath are insufficient to withstand the loading and are vulnerable to long term corrosion.
+
+\n\tPrior consideration should also be given to the preferred route for hydraulic and control connections which are likely to require separate weather sealing. In all situations, care should be taken with materials adjacent to fluid-carrying components from the solar system, as these can be at full stagnation temperature (typically in excess of 150ºC).
+
+\n\tWith a flat roof or ground-mounted system, options include the use of ballast weight or fixing into the mounting surfaces. These may also be used in combination; however great care is required to not overload a sub-structure. A collector can be mounted horizontally in order to avoid excessive wind loadings on the rear of exposed A-frames. Some collectors allow the absorber to be internally rotated to a more efficient angle whilst appearing flat from a distance.
+
+\n\tThe following roof coverings require particular care in the choice of fixing method. A competent roofer and structural engineer may be required:"
+                android:id="@+id/t3ext" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/text" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/te4xt" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

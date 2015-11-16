@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Risk of Bacteria"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tThe solar pre-heat volume temperatures will vary through the year from as low as 5ºC in winter up to possibly 85ºC in summer. In this respect, pre-heated water should not be considered as fully treated for DHW use and should not enter the household distribution until it has been further conditioned for comfort and safety. There is an increased risk of bacteria growth at temperatures between 20ºC to 46ºC during prolonged periods without DHW draw-off. Special attention should be given to situations where cold water originates from unclean water cisterns (without lids) or where there are porous, suspicious or unknown fittings in contact with the water.
+\n\tThe risks can be minimised by:"
+                android:id="@+id/t3ext" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/text" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tIrrespective of the above, reliable sterilisation is best achieved by ensuring pre-heated water passes through to another reliable heat source capable of sterilisation of unwanted bacteria. It should be noted that legionella bacteria can be expected to be killed within seconds at 60ºC.
+
+\n\tIt should be noted that the use of de-stratifying secondary pumps or an occasional back-up heat source within the pre-heat store could drastically reduce the solar performance and effectively de-rate the dedicated pre-heat store. To optimise solar efficiency, secondary circulation distribution is best implemented only in the DHW store. However, where a high risk of bacterial proliferation exists, the solar pre-heat store can be designed to be regularly sterilised, ideally at the end of the day to give the best chance for this to be achieved by solar. Such sterilisation should be accurately controlled by time and temperature in order to restore solar storage promptly.
+"
+                android:id="@+id/te4xt" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

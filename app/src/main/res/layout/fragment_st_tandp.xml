@@ -1,0 +1,32 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Requirements"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tIn the event of a circulation failure during hot weather, stagnation can occur causing maximum temperature and pressure. Primary fluid temperatures of over 150°C are commonplace in summer. Non-metallic (elastomeric) materials, fittings and accessories have a history of premature failure. Specialised components are normally required. The temperature and pressure limits of all components should be confirmed by permanent marking, identification or technical data left on site along with the full stagnation temperature. Non-metallic pipes carrying fluids on solar primary systems should be independently tested to ISO 9808 (BS 7431). In general, materials for solar primary circuits can be specified to ISO/TR 10217 and BS 6700. Other factors to consider are ultra-violet degradation and vermin. "
+                android:id="@+id/text" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

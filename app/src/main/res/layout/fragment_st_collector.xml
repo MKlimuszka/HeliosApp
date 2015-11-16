@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Structure"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tThe absorber usually has a translucent cover which allows light in and reduces heat losses from convection. An insulated enclosure provides structural integrity and reduces losses from conduction. Connectors allow fluid from the primary loop to circulate and control heat transmission from the collector into the dwelling. Collectors are either flat or tubular.
+"
+                android:id="@+id/text" />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nLifetime"
+                android:id="@+id/textVie342w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tThe collector is subject to extremes of weather. During high irradiation periods, if there is no heat extraction, an absorber will normally stagnate between 150°C and 300°C. The absorber will then contain super-heated fluid or vapour at a pressure of up to 6 six times atmospheric pressure depending on the safety limiting devices. A collector should be able to survive these conditions, without specialised maintenance, for over 20 years.
+"
+                android:id="@+id/te2xt" />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nPerformance"
+                android:id="@+id/textVie32w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tBS EN 12975 sets out procedures to test durability and reliability under extreme conditions, and provides a measure of energy performance. When an EN 12975 test report is published by a manufacturer, the CO2 mitigation potential and safe design of a proposed system can be easily assessed and calculated. A collector should be tested and independently certified to EN 12975 in respect of durability, reliability and performance.
+
+\n\tPerformance is measured by EN 12975 by means of a plot of efficiency versus temperature difference. The test also gives an indication of the variance due to the angle of incidence and the thermal inertia. These results can be used directly in predictive software and other calculations which assess monthly or annual performance. To allow a collector to receive optimum irradiance, it is best located on the roof to avoid localised shading.
+
+\n\tThe amount of energy collected is largely determined by the area and efficiency of a collector, and it is important to be clear whether the gross (full) or net (absorber) area is being referred to when making comparisons. Collector efficiency varies according to temperature. Even a collector that is 85 % efficient when cold will in most circumstances have an average conversion efficiency of around 60 % due to heat losses. Further losses (from transmission, storage, and distribution) will reduce overall system efficiency to below 50 %. A reflector can artificially enlarge the aperture area, but it only works effectively in direct sunlight. In addition, the highly polished surfaces can quickly tarnish and fade in humid UK conditions."
+                android:id="@+id/tex5t" />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

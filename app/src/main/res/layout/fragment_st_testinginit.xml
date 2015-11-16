@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Initial Testing"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tDuring the initial testing of a solar primary system, there is a high risk of scalding from stagnation heat built up in the absorber. When first filled, there can be an immediate steam flash and an intense heat shock to components.
+
+\n\tDuring prolonged periods with no heat extraction, unwanted oxides can form on internal collector surfaces reducing heat transfer. Collectors should therefore remain covered until initial testing has been completed.
+
+\n\tUnexpected leaks and emergency drain downs are best dealt with when the transfer fluid is cold. It is inevitable that unwanted particles and chemicals will get into components during pipe laying, so a primary system should first be flushed cold, then hot until clear.
+
+\n\tHowever, great care must be taken to ensure that residual water is not unintentionally left in the system to dilute the antifreeze. Furthermore, if left for long periods, pockets of water could freeze (particularly in winter conditions) or corrode components such as pump rotors.
+
+\n\tOnce the system is shown to be leak-free and operational, a prolonged pressure test is recommended. Air is not a suitable test medium due to the danger of gaseous explosions and the inability to discern temperature fluctuations. In systems where antifreeze is to be used it should be added prior to the initial pressure test. This is because it reduces the surface tension properties of the water and therefore ‘searches out’ leaks that would otherwise not be identified during the test.
+
+\n\tSolar pre-heat stores made from copper need to form an oxide layer on the interior surface to reduce corrosion risks. They should not, therefore, be left for long periods filled with unheated cold water. Briefly heating the store beyond 60ºC will permit this oxide layer to form.
+
+\n\tPipes should only be insulated after final pressure testing (except for pre-tested and continuous unbroken pipework runs used without joints or fittings). Guidance for pressure testing is given in BS 6700 (soon to be superseded by BS EN 806).
+
+\n\tPutting all the pump control temperature sensors into a hot water bath before installation will allow a check on their accuracy. An accurate digital readout will allow imbalanced sensors to be discarded.
+
+\n\tCollector temperature sensors can be susceptible to the absorption of unwanted moisture from prolonged temperature differentials and humidity. Special heat paste applied into sensor pockets reduces the chances of this."
+                android:id="@+id/text" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 tanks"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tA water store heated by an auxiliary source, such as a boiler, can be located separately from the solar store. When DHW is drawn off, pre-heated water moves into the base of the boiler store. A thermostat controls the boiler (and immersion) and responds to the solar heat when there is a draw-off. The boiler store can remain hot to ensure comfort and sterilisation. Diversion valves that automatically omit the boiler cylinder can allow untreated water into the DHW distribution and put the user at increased risk from scalding and bacteria. Pumped circulation between the stores based on a comparative temperature control (e.g. differential thermostatic control (DTC)) could be used, providing the natural stratification of the pre-heat store is not lost."
+                android:id="@+id/text" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/st_twotanks"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nDirect DHW heaters"
+                android:id="@+id/textVeie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tAn auxiliary heat source can also operate directly on the water, for example with a combi boiler, multipoint, single point or electric point-of-use appliance. In these cases, the auxiliary heat can be considered downstream from the separate solar input. When DHW is drawn off, pre-heated water moves into the normally cold feed DHW generator. This method must be considered with great care, as many of these types of appliance are not designed for pre-heat. Incorrect pre-heating can lead to the appliance working inefficiently, overheating and even result in component failure. A thermostatic blending valve may be required for protection on either side of the appliance. Some appliances may display a mark to indicate suitability for pre-heating. During short draw-off volumes, correct thermostatic control requires that the appliance does not switch on or fire unnecessarily when the solar store is already hot.
+
+\n\tDiversion valves that automatically omit the DHW generator, when the solar water is hot enough, can allow untreated water into the DHW distribution and put the user at increased risk from scalding. They can also inadvertently block important safety features and so should only be included with full approval of the appliance manufacturer. Where correctly fitted, divert valves can increase the appliance performance during high solar gains."
+                android:id="@+id/tet" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/st_directheater"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nThermal stratification "
+                android:id="@+id/textV4ie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tThermal stratification is the natural layering of buoyant warmer water over cold. Its effects are desirable in pre-heat storage in order to maintain effective heat transfer from the primary loop. For the same volume, the effect is most pronounced in tall, thin stores with an elevated height width ratio. Stores in horizontal format have poor stratification and therefore are not recommended for solar storage.
+
+\n\tWith careful arrangement of exchange surfaces and choice of materials, the mixing sometimes caused by thermal eddies, cold feed inrush and cylinder wall conduction can be reduced in stores of certain formats. These may use extra vertically stacked coils, tubes or internal separators to encourage the ‘chimney’ effect of buoyant warm water.
+
+\n\tSome pump controls can be programmed to delay circulation and increase the primary loop temperature before loading, which will encourage stratification. The thermal stratification of DHW stores should be considered separately from that in solar pre-heat stores. A test method to measure solar store stratification is given in prEN-12977-3."
+                android:id="@+id/te3xt" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

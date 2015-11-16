@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isolation"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tAs there is a significant risk of scalding or over-pressure, a SDHW system must be capable of hydraulic and electrical isolation from any pump and the pre-heat storage, to allow for periodic maintenance. The isolation mechanism, such as ball or gate valves, must not be able to accidentally isolate the collector from a route to safety devices. In particular, no valve must be placed so as to isolate a safety pressure release valve or expansion/drainback vessel. A solar primary system should include a clear and safe means of isolating a collector from the pre-heat store."
+                android:id="@+id/text" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

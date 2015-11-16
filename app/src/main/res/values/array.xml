@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<string-array name="sttopics">
+
+    <item>About</item>
+    <item>Auxiliary DHW Heat Sources</item>
+    <item>Collector Access</item>
+    <item>Collectors</item>
+    <item>Combined Stores</item>
+    <item>Commissioning</item>
+    <item>Controls and Sensors</item>
+    <item>Heat Exchanger</item>
+    <item>Insulation</item>
+    <item>Isolation</item>
+    <item>Losses</item>
+    <item>Losses (Night)</item>
+    <item>Maintenance and Documentation</item>
+    <item>Occupant’s DHW Regime</item>
+    <item>Over-pressure Protection</item>
+    <item>Pitch and Orientation</item>
+    <item>Pre-heat Storage</item>
+    <item>Pre-heat Storage Locations</item>
+    <item>Risk of Bacteria</item>
+    <item>Risk of Limescale</item>
+    <item>Risk of Scalding</item>
+    <item>Roof Coverings and Wind Loading</item>
+    <item>Secondary Storage Systems</item>
+    <item>Secondary Water Pressure</item>
+    <item>Separate Stores</item>
+    <item>Shading</item>
+    <item>Solar Heat Store Labelling</item>
+    <item>System Types</item>
+    <item>Temperature and Pressure</item>
+    <item>Testing, Initial</item>
+    <item>Testing, Periodic</item>
+    <item>Tools</item>
+    <item>Transfer Fluid</item>
+    <item>Water Quality</item>
+
+</string-array>
+
+    <string-array name="pvtopics">
+
+        <item>About</item>
+        <item>Glossary</item>
+        <item>Blocking Diodes</item>
+        <item>Cables (AC)</item>
+        <item>Cables (DC)</item>
+        <item>Current and Voltage Ratings (DC)</item>
+        <item>Earthing (AC)</item>
+        <item>Earthing (DC) </item>
+        <item>Inverters</item>
+        <item>Isolation and Switching (AC)</item>
+        <item>Isolation and Switching (DC)</item>
+        <item>Junctioning (DC)</item>
+        <item>Lightning Protection</item>
+        <item>Metering</item>
+        <item>Module Requirements</item>
+        <item>Residual-Current Device</item>
+        <item>Roofing and Cladding Works</item>
+        <item>Safety</item>
+        <item>Sequence of Works</item>
+        <item>Shade Factor (SF)</item>
+        <item>String Fuses</item>
+        <item>Surge Protection</item>
+        <item>Temperature Effects</item>
+        <item>Protective Equipotential Bonding</item>
+        <item>Wind Load Calculations</item>
+
+    </string-array>
+
+
+
+
+    <string-array name="postcodes">
+
+        <item>AB</item>
+        <item>AL</item>
+        <item>B</item>
+        <item>BA</item>
+        <item>BB</item>
+        <item>BD </item>
+        <item>BD23&#8211;24</item>
+        <item>BH</item>
+        <item>BL</item>
+        <item>BN</item>
+        <item>BR</item>
+        <item>BS</item>
+        <item>BT</item>
+        <item>CA</item>
+        <item>CB</item>
+        <item>CF</item>
+        <item>CH</item>
+        <item>CH5&#8211;8</item>
+        <item>CM</item>
+        <item>CM21-23</item>
+        <item>CO</item>
+        <item>CR</item>
+        <item>CT</item>
+        <item>CV</item>
+        <item>CW</item>
+        <item>DA</item>
+        <item>DD</item>
+        <item>DE</item>
+        <item>DG</item>
+        <item>DH</item>
+        <item>DH4&#8211;5</item>
+        <item>DL</item>
+        <item>DN</item>
+        <item>DT</item>
+        <item>DY</item>
+        <item>E</item>
+        <item>EC</item>
+        <item>EH</item>
+        <item>EH43&#8211;46</item>
+        <item>EN</item>
+        <item>EN9</item>
+        <item>EX</item>
+        <item>FK</item>
+        <item>FY</item>
+        <item>G</item>
+        <item>GL</item>
+        <item>GU</item>
+        <item>GU11&#8211;12</item>
+        <item>GU14</item>
+        <item>GU28&#8211;29</item>
+        <item>GU30&#8211;35</item>
+        <item>GU46</item>
+        <item>GU51&#8211;52</item>
+        <item>HA</item>
+        <item>HD</item>
+        <item>HG</item>
+        <item>HP</item>
+        <item>HR</item>
+        <item>HS</item>
+        <item>HU</item>
+        <item>HX</item>
+        <item>IG</item>
+        <item>IP</item>
+        <item>IV</item>
+        <item>IV30&#8211;32</item>
+        <item>IV36</item>
+        <item>KA</item>
+        <item>KT</item>
+        <item>KW</item>
+        <item>KW15&#8211;17</item>
+        <item>KY</item>
+        <item>L</item>
+        <item>LA</item>
+        <item>LA7&#8211;23</item>
+        <item>LD</item>
+        <item>LE</item>
+        <item>LL</item>
+        <item>LL23&#8211;27</item>
+        <item>LL30&#8211;78</item>
+        <item>LN</item>
+        <item>LS</item>
+        <item>LS24</item>
+        <item>LU</item>
+        <item>M</item>
+        <item>ME</item>
+        <item>MK</item>
+        <item>ML</item>
+        <item>N</item>
+        <item>NE</item>
+        <item>NG</item>
+        <item>NN</item>
+        <item>NP</item>
+        <item>NPS</item>
+        <item>NR</item>
+        <item>NW</item>
+        <item>OL</item>
+        <item>OX</item>
+        <item>PA</item>
+        <item>PE</item>
+        <item>PE9&#8211;12</item>
+        <item>PE20&#8211;25</item>
+        <item>PH</item>
+        <item>PH19&#8211;25</item>
+        <item>PH26</item>
+        <item>PH30&#8211;44</item>
+        <item>PH49</item>
+        <item>PH50</item>
+        <item>PL</item>
+        <item>PO</item>
+        <item>PO18&#8211;22</item>
+        <item>PR</item>
+        <item>RG</item>
+        <item>RG21&#8211;29</item>
+        <item>RH</item>
+        <item>RH10&#8211;20</item>
+        <item>RH77</item>
+        <item>RM</item>
+        <item>S</item>
+        <item>S18</item>
+        <item>S32&#8211;33</item>
+        <item>S40&#8211;45</item>
+        <item>S49</item>
+        <item>SA</item>
+        <item>SA14&#8211;20</item>
+        <item>SA31&#8211;48</item>
+        <item>SA61&#8211;73</item>
+        <item>SE</item>
+        <item>SG</item>
+        <item>SK</item>
+        <item>SK13</item>
+        <item>SK17</item>
+        <item>SK22&#8211;23</item>
+        <item>SL</item>
+        <item>SM</item>
+        <item>SN</item>
+        <item>SN7</item>
+        <item>SO</item>
+        <item>SP</item>
+        <item>SP6&#8211;11</item>
+        <item>SR</item>
+        <item>SR7&#8211;8</item>
+        <item>SS</item>
+        <item>ST</item>
+        <item>SW</item>
+        <item>SY</item>
+        <item>SY14</item>
+        <item>SY15&#8211;25</item>
+        <item>TA</item>
+        <item>TD</item>
+        <item>TD12</item>
+        <item>TD15</item>
+        <item>TF</item>
+        <item>TN</item>
+        <item>TQ</item>
+        <item>TR</item>
+        <item>TS</item>
+        <item>TW</item>
+        <item>UB</item>
+        <item>W</item>
+        <item>WA</item>
+        <item>WC</item>
+        <item>WD</item>
+        <item>WF</item>
+        <item>WN</item>
+        <item>WR</item>
+        <item>WS</item>
+        <item>WV</item>
+        <item>YO</item>
+        <item>YO15&#8211;16</item>
+        <item>YO25</item>
+        <item>ZE</item>
+
+    </string-array>
+
+    <string-array name="shadeentries">
+
+        <item>0.00</item>
+        <item>0.01</item>
+        <item>0.02</item>
+        <item>0.03</item>
+        <item>0.04</item>
+        <item>0.05</item>
+        <item>0.06</item>
+        <item>0.07</item>
+        <item>0.08</item>
+        <item>0.09</item>
+        <item>0.10</item>
+        <item>0.11</item>
+        <item>0.12</item>
+        <item>0.13</item>
+        <item>0.14</item>
+        <item>0.15</item>
+        <item>0.16</item>
+        <item>0.17</item>
+        <item>0.18</item>
+        <item>0.19</item>
+        <item>0.20</item>
+        <item>0.21</item>
+        <item>0.22</item>
+        <item>0.23</item>
+        <item>0.24</item>
+        <item>0.25</item>
+        <item>0.26</item>
+        <item>0.27</item>
+        <item>0.28</item>
+        <item>0.29</item>
+        <item>0.30</item>
+        <item>0.31</item>
+        <item>0.32</item>
+        <item>0.33</item>
+        <item>0.34</item>
+        <item>0.35</item>
+        <item>0.36</item>
+        <item>0.37</item>
+        <item>0.38</item>
+        <item>0.39</item>
+        <item>0.40</item>
+        <item>0.41</item>
+        <item>0.42</item>
+        <item>0.43</item>
+        <item>0.44</item>
+        <item>0.45</item>
+        <item>0.46</item>
+        <item>0.47</item>
+        <item>0.48</item>
+        <item>0.49</item>
+        <item>0.50</item>
+        <item>0.51</item>
+        <item>0.52</item>
+        <item>0.53</item>
+        <item>0.54</item>
+        <item>0.55</item>
+        <item>0.56</item>
+        <item>0.57</item>
+        <item>0.58</item>
+        <item>0.59</item>
+        <item>0.60</item>
+        <item>0.61</item>
+        <item>0.62</item>
+        <item>0.63</item>
+        <item>0.64</item>
+        <item>0.65</item>
+        <item>0.66</item>
+        <item>0.67</item>
+        <item>0.68</item>
+        <item>0.69</item>
+        <item>0.70</item>
+        <item>0.71</item>
+        <item>0.72</item>
+        <item>0.73</item>
+        <item>0.74</item>
+        <item>0.75</item>
+        <item>0.76</item>
+        <item>0.77</item>
+        <item>0.78</item>
+        <item>0.79</item>
+        <item>0.80</item>
+        <item>0.81</item>
+        <item>0.82</item>
+        <item>0.83</item>
+        <item>0.84</item>
+        <item>0.85</item>
+        <item>0.86</item>
+        <item>0.87</item>
+        <item>0.88</item>
+        <item>0.89</item>
+        <item>0.90</item>
+        <item>0.91</item>
+        <item>0.92</item>
+        <item>0.93</item>
+        <item>0.94</item>
+        <item>0.95</item>
+        <item>0.96</item>
+        <item>0.97</item>
+        <item>0.98</item>
+        <item>0.99</item>
+        <item>1.00</item>
+
+    </string-array>
+
+    <string-array name="pitchentries">
+
+        <item>00&#0176;</item>
+        <item>01&#0176;</item>
+        <item>02&#0176;</item>
+        <item>03&#0176;</item>
+        <item>04&#0176;</item>
+        <item>05&#0176;</item>
+        <item>06&#0176;</item>
+        <item>07&#0176;</item>
+        <item>08&#0176;</item>
+        <item>09&#0176;</item>
+        <item>10&#0176;</item>
+        <item>11&#0176;</item>
+        <item>12&#0176;</item>
+        <item>13&#0176;</item>
+        <item>14&#0176;</item>
+        <item>15&#0176;</item>
+        <item>16&#0176;</item>
+        <item>17&#0176;</item>
+        <item>18&#0176;</item>
+        <item>19&#0176;</item>
+        <item>20&#0176;</item>
+        <item>21&#0176;</item>
+        <item>22&#0176;</item>
+        <item>23&#0176;</item>
+        <item>24&#0176;</item>
+        <item>25&#0176;</item>
+        <item>26&#0176;</item>
+        <item>27&#0176;</item>
+        <item>28&#0176;</item>
+        <item>29&#0176;</item>
+        <item>30&#0176;</item>
+        <item>31&#0176;</item>
+        <item>32&#0176;</item>
+        <item>33&#0176;</item>
+        <item>34&#0176;</item>
+        <item>35&#0176;</item>
+        <item>36&#0176;</item>
+        <item>37&#0176;</item>
+        <item>38&#0176;</item>
+        <item>39&#0176;</item>
+        <item>40&#0176;</item>
+        <item>41&#0176;</item>
+        <item>42&#0176;</item>
+        <item>43&#0176;</item>
+        <item>44&#0176;</item>
+        <item>45&#0176;</item>
+        <item>46&#0176;</item>
+        <item>47&#0176;</item>
+        <item>48&#0176;</item>
+        <item>49&#0176;</item>
+        <item>50&#0176;</item>
+        <item>51&#0176;</item>
+        <item>52&#0176;</item>
+        <item>53&#0176;</item>
+        <item>54&#0176;</item>
+        <item>55&#0176;</item>
+        <item>56&#0176;</item>
+        <item>57&#0176;</item>
+        <item>58&#0176;</item>
+        <item>59&#0176;</item>
+        <item>60&#0176;</item>
+        <item>61&#0176;</item>
+        <item>62&#0176;</item>
+        <item>63&#0176;</item>
+        <item>64&#0176;</item>
+        <item>65&#0176;</item>
+        <item>66&#0176;</item>
+        <item>67&#0176;</item>
+        <item>68&#0176;</item>
+        <item>69&#0176;</item>
+        <item>70&#0176;</item>
+        <item>71&#0176;</item>
+        <item>72&#0176;</item>
+        <item>73&#0176;</item>
+        <item>74&#0176;</item>
+        <item>75&#0176;</item>
+        <item>76&#0176;</item>
+        <item>77&#0176;</item>
+        <item>78&#0176;</item>
+        <item>79&#0176;</item>
+        <item>80&#0176;</item>
+        <item>81&#0176;</item>
+        <item>82&#0176;</item>
+        <item>83&#0176;</item>
+        <item>84&#0176;</item>
+        <item>85&#0176;</item>
+        <item>86&#0176;</item>
+        <item>87&#0176;</item>
+        <item>88&#0176;</item>
+        <item>89&#0176;</item>
+        <item>90&#0176;</item>
+
+
+    </string-array>
+
+    <string-array name="orientationentries">
+
+        <item>00&#0176;</item>
+        <item>05&#0176;</item>
+        <item>10&#0176;</item>
+        <item>15&#0176;</item>
+        <item>20&#0176;</item>
+        <item>25&#0176;</item>
+        <item>30&#0176;</item>
+        <item>35&#0176;</item>
+        <item>40&#0176;</item>
+        <item>45&#0176;</item>
+        <item>50&#0176;</item>
+        <item>55&#0176;</item>
+        <item>60&#0176;</item>
+        <item>65&#0176;</item>
+        <item>70&#0176;</item>
+        <item>75&#0176;</item>
+        <item>80&#0176;</item>
+        <item>85&#0176;</item>
+        <item>90&#0176;</item>
+
+
+    </string-array>
+</resources>

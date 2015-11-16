@@ -1,0 +1,50 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Requirements"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tA transfer fluid moves heat from the collector into the dwelling. Because of the high stagnation temperatures and freezing temperatures in the winter, only specially prepared fluids should be used – and these may differ between systems. This fluid should not deposit limescale, sludge, ice or other solids that could restrict circulation or impair the rate of heat transfer. It normally contains anti-corrosion inhibitors and antifreeze. An accessible test point is required in the circuit to safely draw off small samples of transfer fluid for inspection during periodic maintenance. The antifreeze must be specifically designed for solar systems and present a low toxicity in the event of a leak. Typical car antifreeze must not be used. Provided annual inspections are carried out, the antifreeze may not need to be replaced in a well-designed system for the whole of its design life."
+                android:id="@+id/text" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nPumps"
+                android:id="@+id/text3Vie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tThermosyphoning is the natural movement of fluid due to the difference in fluid buoyancy at different temperatures. Due to the layout of most UK dwellings, it is rare that thermosyphon circulation can be used instead of a pump. Safety factors, including the adequate control of heat circulation and conservation of stored heat, further restrict its application. The direct connection of a pump to a power source, such as a photovoltaic (PV) module, presents similar safety issues. In most cases, maximum efficiency and safety of circulation is achieved with a pump under temperature control."
+                android:id="@+id/text3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

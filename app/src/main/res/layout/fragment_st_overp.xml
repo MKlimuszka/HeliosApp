@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Over-pressure"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tA safety device to control the risk of over-pressure in system components should be fitted. The pipe leading to it and the collector should be of rigid and non-deformable construction, without any possibility of restriction or closure by any other fitted component. A termination from a safety pressure device should be directed into a high temperature receptacle, an internal gully or else issue externally at ground level. High level termination from walls or on roofs could cause injury to people or animals below if the valve were to release scalding water and steam. Ideally, an expansion vessel large enough to hold the primary fluid contents of the collector plus the expansion volume of the system would prevent this release.
+\n\tIn the event of venting water, there is loss of usable energy contribution and of CO\u2082 mitigation. Also, user intervention might be required to restart operation. Primary systems can, however, be designed to automatically and safely resume after stagnation. Such systems conform to the principles of overheating protection in EN 12976 and can be termed inherently secure. "
+                android:id="@+id/text" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

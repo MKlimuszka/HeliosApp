@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Risk of Limescale"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tThe higher temperatures experienced in solar stores can mean that limescale becomes a significant problem. This can eventually reduce the performance and efficiency of the solar system. The problem varies from site to site and a skilled assessment is required before attempting to minimise the risk. When considering the use of products that are claimed to reduce limescale, thought should be given to the effects of varying future water quality, unexpected user intervention and any parasitic or standing electrical losses that may be required to operate such devices. Techniques to reduce heat exchanger temperatures have beneficial results in high limescale areas and can be more robust than additional devices such as water softeners. In severe cases, pre-heat solar storage can be limited to 60ºC through temperature control of the primary circulation or by increasing the size of heat exchanger. Similar effects can be realised by increasing the fluid content of the collector primary loop or increasing the primary circulation rate.
+
+\n\tDirect solar primary systems are particularly prone to limescale within the absorber. An indirect circuit should always be considered as the first step to reducing the risk of limescale inside the absorber.
+
+\n\tWhere the cold water supply is expected to be above 100mg/l calcium carbonate average equivalent, written procedures for monitoring and cleaning areas likely to be affected by limescale should be given to the end-user. In particular, the likely risk of long term limescale formation in the pre-heat store and on the heat exchange surfaces should be considered. In potentially severe cases of limescale formation, the solar pre-heat exchanger should be made accessible for an annual cleaning procedure described in documentation left on site. Alternatively, the secondary solar pre-heat store should be capable of being accurately controlled to below 60ºC."
+                android:id="@+id/text" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

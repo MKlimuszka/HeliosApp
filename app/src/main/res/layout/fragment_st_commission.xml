@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commissioning"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tCommissioning is the point at which the responsibility of installed equipment is given to the end-user. This may be different from a change of legal ownership. A signed certificate is handed over to the user that certifies the equipment is safe, legal and fit for use in its intended purpose. Key safety and performance parameters on a checklist are confirmed as operational.
+
+\n\tThe values and tolerances of any variable or adjustable parameters are entered to enable future service personnel, or the user, to verify performance and safety. There may be more than one certificate if individual items can function separately i.e. hot water vessels.
+
+\n\tA commissioning engineer must be a competent person who can personally testify by signature and date that the equipment is commissioned. Such a person should be suitably informed and trained. They should be properly and regularly assessed to a high standard.
+
+\n\tIt is intended that commissioning certificates will be a relevant part of the Government’s proposed ‘Home Information Pack’ (HIP). Where energy-monitoring equipment is fitted, such as heat meters or flow meters, then on-site sensor matching and calibration may also be required.
+Maintenance and Docu"
+                android:id="@+id/text" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

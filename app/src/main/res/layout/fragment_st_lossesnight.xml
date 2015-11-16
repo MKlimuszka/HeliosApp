@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Losses (Night)"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\tDuring the night, heat in warm water located near the solar circuit can easily rise via the primary pipes to a solar collector by natural convection (thermosyphon), forming a circulation loop within the pipes which is capable of completely cooling a solar pre-heat store overnight. Inadvertent triggering of a temperature control sensor in the solar collector can then switch on a pump, exacerbating the situation.
+
+\n\tThis circulation can be caused by:"
+            android:id="@+id/text4" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/text" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n\tA means of preventing reverse circulation should be provided, in both flow and return primary pipes, to avoid loss of stored heat. For fully flooded systems, anti-reverse circulation devices normally include a spring-loaded one-way check valve located in both the flow and return pipes. They should be located away from the collector to minimize high temperature exposure. These valves may require a bypass or drain-point to allow complete flushing/draining during installation and periodic maintenance. Drainback systems normally have no fluid remaining in the primary circuit once the pump has stopped. They must not be fitted with check valves in the circuit, but will instead rely on a downward drop in the pipes to a vessel.
+
+\n\tOn cloudless nights, the temperature of an absorber can fall below the ambient temperature due to black-body radiation, freezing of the absorber surface.
+
+\n\tUnder normal conditions the pump must not circulate heat if the collector is cooler than the solar storage. This is best prevented by using at least two temperature sensors, one fitted into the absorber and the other into the solar store. These must operate in conjunction with each other to permit pump circulation only when useful net heat can be gained. This forms part of an ‘interlock’ between the collector loop and the pump. A physical separation between auxiliary heat sources (downstream) and the solar circuit is also recommended."
+                android:id="@+id/tex4t" />
+
+           
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

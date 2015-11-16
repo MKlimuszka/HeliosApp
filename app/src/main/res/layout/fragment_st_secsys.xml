@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Secondary Storage Systems"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tA secondary system receives energy from a primary system. It stores this energy and distributes it to the DHW appliances of the dwelling. It is essential to provide a sufficient volume of water to accept the solar energy whenever it is available. This will maintain the collector efficiency and predicted carbon dioxide savings. General guidance on hot water services can be found in BS EN 806. See “Pre-heat Storage,” “Combined Stores,” and “Separate Stores.”
+
+\n\tThe storage method varies greatly depending on: "
+                android:id="@+id/text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/bulletedList" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

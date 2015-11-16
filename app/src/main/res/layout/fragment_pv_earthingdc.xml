@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earthing (d.c.)"
+                android:id="@+id/textView"
+                android:textSize="@dimen/textheading" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pv_earthing"
+                android:id="@+id/text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nRequired Interuppter Rating"
+                android:id="@+id/textView3"
+                android:textSize="@dimen/textheading" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:showDividers="middle|beginning|end"
+                android:textAlignment="center"
+                android:background="#000"
+                android:layout_margin="10dp">
+
+                <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Array size "
+                    android:id="@+id/text6"
+                    android:background="#FFF"
+                    android:layout_margin="1dp"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\ Overcurrent Rating\ "
+                    android:id="@+id/text54"
+                    android:background="#FFF"
+                    android:layout_margin="1dp"
+                    android:gravity="center" />
+
+            </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2264 3kWp "
+                        android:id="@+id/text89"
+                        android:background="#FFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2264 1A"
+                        android:id="@+id/text8"
+                        android:background="#FFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\ \ \   3-100KWp\ \ \"
+                        android:id="@+id/text7"
+                        android:background="#FFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2264 3A"
+                        android:id="@+id/text5"
+                        android:background="#FFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u003E100kWp "
+                        android:id="@+id/text3"
+                        android:background="#FFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u2264 5A"
+                        android:id="@+id/text4"
+                        android:background="#FFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center" />
+
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

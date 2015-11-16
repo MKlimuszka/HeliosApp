@@ -1,0 +1,38 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Heat Exchanger"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tA heat exchanger is normally placed between the collector primary loop and the solar store. Due to the predominately low temperature range of transfer, such heat exchangers need much larger surface areas than conventional exchangers. In all cases the net heat transfer should be at least 40W/K per m\u00B2 of exchanger per net unit area of collector absorber (according to prEN 12977).
+
+\n\tIf a solar heat exchanger is placed adjacent to, or intertwined with, another heat exchanger, then unwanted (reverse) heat transfer can occur and the dedicated pre-heat volume will be diminished. A similar problem will occur where an electric immersion element is not sufficiently high enough or a secondary pump acts to circulate hot water downwards through the store.
+
+\n\tIdeally, the collector return loop connection is made at the coolest part of the system, possibly adjacent to the store’s cold feed. In a combined store, a physical division between different heat sources should be used in preference to a ‘time-control’ strategy relying purely on electronic devices"
+                android:id="@+id/text" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

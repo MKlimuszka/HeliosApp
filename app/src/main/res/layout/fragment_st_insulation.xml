@@ -1,0 +1,42 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Insulation"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tAs a rule, thermal solar energy is a useful, low carbon displacement for fossil fuels. Normally, solar thermal energy is stored for at least some time until required. Where long storage times of the heated water are required then the usability factor is low. The use of insulation and efficient methods of transferring heat will reduce losses, increase the displacement of fossil fuels and improve comfort. According to DTI Report SP 300275-3, solar stores that are poorly insulated can account for losses of over 15 % (of the useful energy produced annually) in addition to increasing the overheating risk for parts of the dwelling during summer.
+
+\n\tThe insulation of a solar pre-heat store should be at least equivalent to current best practice for conventional DHW stores. For existing best practice for DHW storage see CHeSS (HR6 note 9). Existing water and building regulations already set insulation levels for pipes in certain circumstances and prEN 12828 or BS 5422 provides further guidance. However, best practice would extend these levels to all internal solar primary pipes. Reducing pipe diameters can reduce heat loss from pipes but this should be done with care, to avoid increasing electrical parasitic pump losses due to increased pumping. All pipes of a solar primary system should be insulated to a conductivity no greater than 0.040W/mK and the thickness should be at least one and a half times the pipe diameter – or an equivalent heat loss measured at 50ºC.
+
+\n\tPipes that are not well insulated can unnecessarily add to the overheating of spaces during summer and present a risk of contact burns. Heat loss can also occur through air infiltration at pipe/roof penetrations and unwanted thermosyphoning of fluid in pipes from warm ambient air.
+
+\n\tInsulation should be judged for its ability to withstand weather, ultra-violet degradation, maximum stagnation temperature and vermin. "
+                android:id="@+id/text" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

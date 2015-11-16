@@ -1,0 +1,35 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Risk of Scalding"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tDuring hot weather, there are risks of scalding from solar heated water. This is why the temperature of secondary water from a solar pre-heat store should be limited before entering DHW distribution. Although a large pre-heat store can be used to reduce temperature peaks, further assurance is required to cover the more extreme conditions. A pump control on the primary circuit, or a thermostatic blending valve on the DHW distribution, is a necessary consideration. The controls should allow a commissioning engineer to choose from a range of options to suit the prevalent and future water conditions.
+
+\n\tThe outlet of a secondary solar pre-heat store should be capable of being accurately controlled to at least 60ºC with an adjustable safety control device. For vulnerable groups, temperatures above 43ºC particularly in baths will increase the risk of scalding. Scale deposition tends to accelerate rapidly above a temperature of 60ºC. Therefore a target temperature for a store should be carefully set taking into account local water quality. Maintaining a balance between bacteria safety, scald risk, water flow rates, and scale reduction requires careful design."
+                android:id="@+id/text" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

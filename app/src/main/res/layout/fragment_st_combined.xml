@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.mk.helios.PV_Safety" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Combined Stores"
+                android:id="@+id/textVie2w"
+                android:textSize="@dimen/textheading" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tIt is common that solar pre-heat storage is combined with such heat sources into a single store, usually termed a ‘twin coil’ cylinder. An electric immersion element located in the top half of the cylinder is often used for occasional or emergency back up. The volume of the store shall be measured below the bottom of the lowest back-up element down to the lowest element of the solar primary. Physical separation offers a more robust method of securing the essential solar pre-heat volume necessary for efficient solar collector performance.
+
+\n\tIn a combined cylinder a small extra volume becomes available for solar storage in the upper part as the stored fossil fuel heated water is used up in a typical household. It is important that the ‘hot-top’ of a combined store is not purposely depleted during the day as comfort levels or bacterial-cleansing ability may be reduced. Where a combined store is used horizontally, there can be up to 40% loss of solar storage compared with one of similar size placed vertically. According to CEN/TC 228, where an existing DHW store is modified to accept solar storage or any other heat sources are present, the useful solar storage additional to the dedicated pre-heat storage volume is that indicated below."
+                android:id="@+id/text" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/st_combined"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

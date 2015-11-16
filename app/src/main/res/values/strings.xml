@@ -1,0 +1,515 @@
+<resources>
+    <string name="app_name">Helios</string>
+    <string name="title_section1">PV Reference</string>
+    <string name="title_section2">Solar Thermal Reference</string>
+    <string name="title_section3">Production Estimation</string>
+    <string name="title_section4">Tilt and Orientation</string>
+    <string name="title_section5">Camera</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example"> </string>
+
+    <string name="action_settings">Settings</string>
+    <string name="orientationprompt">Orientation</string>
+    <string name="shadeprompt">Shade Factor</string>
+    <string name="pitchprompt">Slope</string>
+    <string name="postcodeprompt">Postcode</string>
+    <string name="wkpprompt">Array Wp</string>
+    <string name="whprod">Annual Production (kWh)</string>
+    <string name="welcome">Welcome to Helios</string>
+
+    <string name="mytitlefilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 _-</string>
+
+
+ <string name="pv_safety2">
+\t Undetected fault currents can also develop into a <b>fire hazard</b>. Protection can be achieved only by both a good d.c. system design and a careful installation.
+\n \t Use <b>insulating gloves and tools</b>, insulating materials for shrouding purposes, and appropriate personal protective equipment. Working at night reduced PV output. Covering an array is an alternative method. This introduces practical problems of keeping the array covered and protecting it from the weather.
+\n \t A charge may build up in the PV system due to its distributed capacitance to ground making an additional <b>shock hazard</b>. This is more prevalent in amorphous (thin film) modules with metal frames or backing. In addition to insulated tools, ensuring a layer of insulation exists between the worker and any conductive surfaces (such a s a metal roof) can help mitigate this risk. </string>
+
+    <string name="pv_req">
+        \t The use of Class II modules is generally recommended, and strongly recommended for array open-circuit voltages of greater than 120 V.
+ \n \t  The PV installer must be able to demonstrate such compliance for all relevant projects. MCS012 or MCS017 (as relevant) may assist in demonstrating such compliance.
+\n \t With <b>pitched roofs</b>, products must have been tested and approved to MCS012 (test procedures used to demonstrate the performance of solar systems under the action of wind loads, fire, rainfall and wind driven rain).
+\n \t With <b>bespoke building integrated modules</b>, products must have been tested and approved to MCS017 Product Certification Scheme Requirements: Bespoke Building Integrated Photovoltaic Products.
+    </string>
+
+    <string name="pv_iv1">
+	\n \t \t <b>Voltage</b>: V<sub>oc</sub>(stc) \u00D7 1.15
+	\n \t \t <b>Current</b>: I <sub>sc</sub>(stc) \u00D7 1.25
+\n \n \t Using max lifetime values for temperature range of -15\u00B0C to 80\u00B0C and irradiance up to 1,250 W/m \u00B2 . Cables should be sized in accordance with BS 7671 and the overall <b>voltage drop</b>, at max operating power, between the array and the inverter is under 3\u0025.
+ \n \t <i>Note:</i>Some types of PV modules have  <b>temperature coefficients</b> that push power output outside standard calculations. In addition, some thin film modules have an electrical output that is much higher during their first few weeks. To avoid oversizing the inverter, the array could be left disconnected for that initial period, refer to the manufacturer.
+    </string>
+
+    <string name="pv_iv2">
+\t Double insulation or reinforced insulation, appropriate barriers, and separation of parts must be applied to all parts of the d.c. circuit to facilitate a level of protection equivalent to the protective measure “double or reinforced insulation” as defined in BS 7671- Section 412.
+
+    </string>
+    <string name="pv_iv3">
+
+    \t Due to the added complexities and dangers associated with systems of a higher voltage than normal, the PV array should not be installed on a building. In addition, access should be restricted to only competent, skilled or instructed persons.
+
+    </string>
+
+    <string name="pv_dccables1">
+	 \t \t <b>Voltage</b>: V<sub>oc</sub>(stc) \u00D7 1.15 \u00D7  M
+	\n \t \t <b>Current</b>: I <sub>sc</sub>(stc) \u00D7 1.25 \u00D7  (N-1)
+\nwhere M is the number of modules per string and N is the number of strings. \n
+    </string>
+
+     <string name="pv_dccables2">
+\n \t The overall voltage drop, at array maximum operating power (stc), between the array and the inverter is under 3%. Cables should be sized in accordance with BS 7671. See DC Current and Voltage for voltage and current calculations. It is expected that “PV cables” are used if they are available. It is recommended that all cables comply with UL 4703, or TUV 2 Pfg 1169 08.2007.
+\n \t To minimise the risk of faults, cable runs should be as short as practicable. Runs over 20m require labels (below) to be fixed every 5-10m. Cabled over about 50m should be installed in earthed metal conduit or trunking, or be screened cables such as armoured. Positive and negative cables of the same string or main d.c. supply should be installed together, avoiding the creation of loops in the system. This requirement includes any associated earth/bonding conductors. Exterior cable <b>colour coding</b> is not required for PV systems.
+    </string>
+ <string name="pv_dccables3">
+\t Cables routed behind a PV array must be rated for a temperature range of at least of <b>15\u00B0;C to 80\u00B0;C</b>. External cables and ties should be UV stable and water resistant. Where cables are likely to be subjected external movement, i.e. those mounted immediately behind the array, it is recommended that they be <b>flexible</b> (multi-stranded) to allow for thermal/wind movement of arrays/modules.
+\n \t PV array cables almost exclusively rely on <b>double or reinforced insulation</b> as their means of shock protection they should not be buried in walls or otherwise hidden in the building structure as mechanical damage would be very difficult to detect and may lead to increase instances of shock and fire risk.
+
+    </string>
+ <string name="pv_dccables4">
+\t Plugs and socket connectors mated together in a PV system shall be of the same type from the same manufacturer and shall comply with BS EN 50521. Different brands may only be interconnected where a test report has been provided that complies with BS EN 50521.
+\n \t Connectors readily accessible to ordinary persons shall be of the locking type, requiring a tool or two separate actions to separate and shall have sign attached that reads:  ‘Do not disconnect d.c. plugs and sockets under load’
+    </string>
+    <string name="pv_dccables5">
+   \n \t The cable current carrying capacity must be calculated according to the requirements of BS 7671. This shall include factors taking into account installation conditions such as cable installation method, solar gains and grouping etc. The cable current carrying capacity after de-rating factors have been applied must exceed the string fuse rating and must exceed the I<sub>sc</sub> \u00D7 1.25.
+</string>
+
+       <string name="pv_dcjuntion1">
+\tIn general cable junctions shall either be by an approved plug and socket connector or contained within a d.c. Junction Box. However in certain limited circumstances it may be necessary for an in-line cable junction to be made (e.g. soldered extension to a module flying lead) although this should be avoided if at all possible.
+\n\tWhere multiple PV sub-arrays and or string conductors enter a junction box they should be grouped or identified in pairs so that positive and negative conductors of the same circuit may easily be clearly distinguished from other pairs.
+\n\tPlug and socket <b>“Y” connectors</b> can also be used to replace a junction box. It is good practice to keep “Y” connectors in accessible locations and where possible note their location on layout drawings, to ease troubleshooting in future.
+\n\tThe d.c. junction box must be labelled with the following.</string>
+
+       <string name="pv_stringfuses1">
+ \tString fuses are required in both the positive and negative legs of the string cabling. For a system of N parallel connected strings, the maximum module reverse current  to be experienced under fault conditions is: 	\n\t\t\t\t\t\t<b>I<sub>R</sub></b> = (N – 1) \u00D7 I<sub>sc</sub>
+\n\tHence, overcurrent protection is required where this value is greater than the module maximum series fuse rating. Fuses should not be mounted in such a position where their rating may be compromised by the build-up of heat from solar gains. The use of <b>MCBs (miniature circuit breakers)</b> is permissible provided they meet the string fuse criteria and are rated for use in an inductive circuit and will operate for currents flowing in either direction through the device. </string>
+       <string name="pv_stringfuses2">
+\t\u2022  Voc(stc) x M x 1.15
+\n\t\u2022  I<sub>n</sub> \u003E  1.5 \u00D7 I<sub>sc</sub>
+\n\t\u2022  I<sub>n</sub> \u2264  2.4 \u00D7 I<sub>sc</sub>
+\n\t\u2022  I<sub>n</sub> \u2264   Maximum series fuse value
+\n\t\u2022  The string fuse must be of a type gPV
+\n\nWhere I<sub>n</sub> is the operating current, M is the number of modules per string, and N is the number of strings.</string>
+       <string name="pv_stringfuses3">
+\tFor <b>small systems</b> where it is determined that fault currents do not present a risk to the modules, only the string cables and connectors need to be considered.  A common approach in this case relies on oversizing string cables and connectors - such that they may safely carry the maximum possible fault current. Such a method does not clear the fault but simply prevents a fire risk from overloaded cables.
+\n\tWhere the inverter is of such a design that it has <b>multiple MPPT</b> inputs and the design does not allow fault currents to flow between these inputs, each MPPT input may be treated as a wholly separate sub-array for the purposes of deciding whether string fuses are required.
+\n\tAlso, See Blocking Diodes</string>
+
+<string name="pv_blockinddiodes1">
+\tBlocking diodes are not commonly used in a grid-connect system as their function is better served by the installation of a string fuse. However, for multi-string arrays with some types of PV module, particularly thin-film types, it may not be possible to provide adequate overcurrent / reverse current protection with string fuses or MCBs alone. If blocking diodes are used, they should still be supplemented by string fuses.
+</string>
+
+    <string name="pv_blockinddiodes2">
+\n\t\u2022  Reverse voltage rating \u003E V<sub>oc</sub> \u00D7 M \u00D7 2.3
+\n\t\u2022  Current rating \u003E 1.4 \u00D7 I<sub>sc</sub>
+\n\t\u2022  Have adequate cooling (heatsinks) if required
+\n where  I<sub>sc</sub> is the relevant short circuit current for the string / sub array / array.
+</string>
+
+    <string name="pv_lightning">
+\t In most situations, PV panels do not significantly increase lightning risks. However, where buildings or structures are considered to be at greater risk, for example very tall, or in an exposed location, the designer of the a.c. electrical system may have chosen to design or apply protective measures such as installation of conductive air rods or tapes. If the building or dwelling is fitted with a lightning protection system (LPS), a suitably qualified person should be consulted as to whether, in this particular case, the array frame should be connected to the LPS, and if so what size conductor should be used.
+\n\tWhere an LPS is fitted, PV system components should be mounted away from lightning rods and associated conductors (see BS EN 62305). For example, an inverter should not be mounted on an inside wall that has a lightning protection system down conductor running just the other side of the brickwork on the outside of the building.
+\n\tWhere there is a perceived increase in risk of direct lightning strike as a consequence of the installation of the PV system, specialists in lightning protection should be consulted with a view to installing a separate lightning protection system in accordance with BS EN 62305.
+    </string>
+
+    <string name="pv_earthing">
+\tAs the d.c. side of PV systems is a current limiting generating set, the protective measure ADS is almost never used and is outside of the scope of this guidance. In these circumstances, where the d.c. side of the installation is constructed to meet the requirements of an installation using double or reinforced insulation, no connection to earth between the PV Modules or frame and main earthing terminal would be required.
+\n\tA connection to earth of any of the current carrying d.c. conductors is not recommended. However, earthing of one of the live conductors of the d.c. side is permitted, if there is at least simple separation between the a.c. and the d.c. side. Where a functional earth is required, it is preferable that where possible this be done through <b>high impedance</b> (rather than directly).
+\n\tThe designer must confirm whether the <b>inverter</b> is suitable for earthing of a d.c. conductor.  Transformerless inverters will not be suitable, and an earthed conductor may interfere with the inverter’s built-in d.c. insulation monitoring.
+\n\tWhere there is a hardwired connection to earth, there is the potential for significant fault currents to flow if an earth fault occurs somewhere in the system. A <b>ground fault (earth fault) interrupter</b> and alarm system can interrupt the fault current and signal that there has been a problem. The interrupter (such as a fuse) is installed in series with the ground connection and selected according to array size. It is important that the alarm is sufficient to initiate action, as any such earth fault needs to be immediately investigated and action taken to correct the cause.
+
+    </string>
+
+    <string name="pv_earthingac">
+        \tEarthing of the inverter at the a.c. terminations will still be necessary where the inverter is a Class I piece of equipment and must be applied where necessary. Where class I inverters are used externally (e.g. field mount systems) careful consideration must be given to the requirements for earthing.
+
+    </string>
+
+    <string name="pv_peb1">
+\tProtective equipotential bonding (PEB) is a measure applied to parts of the electrical installation which, under fault conditions may otherwise have a different potential to earth. By applying this measure the risk of electric shock is limited as there should be little or no difference in voltages (potential difference) between the parts that may otherwise become live. These parts are categorised as either Exposed-Conductive-Parts or Extraneous-Conductive-Parts
+
+    </string>
+    <string name="pv_peb2">
+\tThe frame of the array has to be assessed as to whether it is likely to introduce a potential into the installation. This aim of this assessment is to find out if the frame has any direct contact with ground that would make it introduce a potential. The details on carrying out these tests are best given in the IET BS 7671 Guidance Note 8 Earthing and Bonding and this should be referred to before undertaking a test
+\n\tTo find this out a resistance test should be carried out between the part in question (the array frame) and the MET of the building.  Where the value recorded is greater than 22kΩ (most cases) the part can be considered to be isolated from earth and NOT an extraneous conductive part. If the reading is less than 22kΩ, then the part is considered to be extraneous and <b>requires protective equipotential bonding</b> as required by BS 7671.
+    </string>
+    <string name="pv_peb3">
+\tWhere the array frame is mounted on a domestic roof or similar, the likelihood of the frame being an extraneous-conductive-part is very low - due to the type and amount of material used between the ground and the roof structure (which will mainly be non-conductive). Even in the case of an array frame being mounted on a commercial building where mostly steelwork is used, it is likely that the frame will be either isolated, and therefore not required to be bonded, or will be bolted to the framework or steelwork of the building which will often be sufficient to maintain bonding continuity and a sufficiently low enough resistance to consider it to be bonded through the structure itself.
+Ground installations
+    </string>
+    <string name="pv_peb4">
+\tCareful consideration needs to be given to systems that are ground mounted as they may initially appear to be an extraneous-conductive-part. However, as they are usually a good distance away from the earthed equipotential zone, by bonding them you may well be introducing a shock risk that wasn’t there initially, and in the case of an installation supplied by a TN-C-S (PME) supply you may be contravening the supply authority’s regulations (ESCQR 2002). In most cases these installations wouldn’t require bonding – in such cases the designer must make an informed decision based on the electrical design of the entire installation, not just the PV system in isolation.
+    </string>
+
+    <string name="pv_surge">
+        \tAll d.c. cables should be installed to provide as <b>short runs as possible</b> and positive and negative cables of the same string or main d.c. supply should be installed together, avoiding the creation of loops in the system. This requirement includes any associated earth/bonding conductors. Long cables (e.g. PV main d.c. cables over about 50 m) should be installed in earthed metal conduit or trunking, or be screened cables such as armoured.
+\n\tMost grid connect <b>inverters</b> have some form of in-built surge suppression; however discrete devices may also be specified.
+\n\t<i>Note</i>: These measures will act to both shield the cables from inductive surges and, by increasing inductance, attenuate surge transmission. Be aware of the need to allow any water or condensation that may accumulate in the conduit or trunking to escape through properly designed and installed vents.
+
+    </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="cableac">
+        <i>Note</i>: For the purposes of this guide a datalogger is not considered current-using equipment and can be connected into the same final circuit as the PV system.
+\n\n\t An inverter must not be connected by means of a plug with contacts which may be live when exposed. A.c. cables are to be specified and installed in accordance with BS 7671. The a.c. cable connecting the inverter(s) to the consumer unit should be sized to minimise voltage drop. A 1% drop or less is recommended.
+\n\tProtection for the cable from the inverter(s) must be provided at the <b>distribution board</b>. This protective measure shall be specified and installed in accordance with the requirements of BS 7671. In very many cases the current limiting nature of the PV array and inverter(s) omits the requirements for overload protection and therefore the designer only need to consider fault current protection. The protection afforded at the origin of the circuit (the distribution board) in accordance with BS 7671, means there is no requirement for additional overcurrent protection to be installed at the inverter end of the a.c. installation.
+\n\tCables are to be well supported, especially those cables <b>exposed to the wind</b>. Cables must be routed in prescribed zones or within mechanical protection, fully supported / cable tied (using UV stabilised ties) and they must also be protected from sharp edges.
+    </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="pv_rcd">
+
+        \tWhere an electrical installation includes a PV power supply system that cannot prevent d.c. fault currents from entering the a.c. side of the installation, and where an RCD is needed to satisfy the general requirements of the electrical installation in accordance with BS 7671, then the selected RCD should be a Type B RCCB as defined in IEC 62423. Where any doubt exists about the capability of the inverter to prevent d.c. fault currents  entering the a.c. side of the system then the manufacturer shall be consulted.
+    </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="aciso">
+        \n\tIsolation and switching of the a.c. side of the installation shall also comply with the requirements of BS 7671. This is to include the provision of an isolator adjacent to the inverter to disconnect the inverter from the source of supply (AC). In its simplest form, for a single phase inverter, an unswitched fused connection unit mounted adjacent to the inverter may be used to fulfil this requirement. It is however suggested that for the purposes of routine maintenance a <b>switched fused connection unit</b> offers a better degree of control and therefore should be used as a minimum.
+\n\t<i>Note</i>: At the point of installation of any a.c. switch-disconnector, the public supply should be considered the source and the PV installation the load.
+    </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="pv_inverter1">
+\tInverters must carry a Type Test certificate to the requirements of Engineering Recommendation G83 or G59 as applicable unless specifically agreed by an engineer employed by or appointed by the DNO for this purpose, and in writing.
+\n\t A key safety consideration is that the PV system will disconnect when the distribution system is not energised.
+\n\tWhere a system features <b>multiple strings/arrays</b> with significantly different orientation or inclination, the strings or arrays should be connected to an inverter with a multiple MPPT function or separate inverters should be utilised.
+    </string>
+
+        <string name="pv_inverter2">
+	 \t \t <b>Voltage</b>: V<sub>oc</sub>(stc) \u00D7 1.15
+	\n \t \t <b>Current</b>: I <sub>sc</sub>(stc) \u00D71.25
+
+\n\t This must include any initial overvoltage period which is a feature of some module types. This is to include verifying that the inverter can safely withstand the array open circuit voltage maximum at -15\u00B0C.
+    </string>
+
+        <string name="pv_inverter3">
+\tWhile an inverter must be able to safely withstand array operation between -15\u00B0C to 80\u00B0C, it is permissible for a narrower temperature band (e.g. -10\u00B0C to 70\u00B0C) to be used when looking at the operational mpp range of the inverter. In such cases, an assessment should be made as to the temperature range acceptable and appropriate for that particular site and array mounting method (e.g. some building integrated systems will operate at higher temperatures than “on-top” systems)    </string>
+
+        <string name="pv_inverter4">
+\tIt is common practice for an inverter power to be less than the PV array rating. In the UK, inverters are typically sized in the range of 100 - 80% of array capacity.  However, in certain circumstances and depending on the inverter used, ratios outside this are sometimes utilised (NB: Inverter power is taken to be maximum steady state a.c. power output).
+    </string>
+
+        <string name="pv_inverter5">
+\tInverters generate heat and should be provided with sufficient ventilation. Clearance distances as specified by the manufacturer (e.g to a heatsink) should also be observed. Inverter locations such as Plant or Boiler rooms, or roof spaces prone to high temperatures, should be carefully considered to avoid overheating. Failure to follow this can cause a loss in system performance as the inverter will de-rate when it reaches its maximum operating temperature. This should be highlighted within the operation and use manual, left with the customer and ideally with a label – “not to block ventilation” – placed next to the inverter.
+    </string>
+
+        <string name="pv_inverter6">
+\tProtection for the cable from the inverter(s) must be provided at the distribution board. This protective measure shall be specified and installed in accordance with the requirements of BS 7671. In very many cases the current limiting nature of the PV array and inverter(s) omits the requirements for overload protection and therefore the designer only need to consider fault current protection. The protection afforded at the origin of the circuit (the distribution board) in accordance with BS 7671, means there is no requirement for additional overcurrent protection to be installed at the inverter end of the a.c. Installation.
+\n\tIt is recommended that Inverters carry a sign ‘Inverter - isolate a.c. and d.c. before carrying out work’.
+    </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="pv_meter1">
+\tAs a minimum, metering at the inverter output should be installed to display/record energy delivered by the PV system (kWh). In addition it is highly recommended for instantaneous power output (kW) to be displayed. This will not only add to customer satisfaction it should lead to more effective fault detection. An approved kWh meter as detailed in the “Metering Guidance” document issued by MCS, connected to measure generation, will be required to facilitate payments of any financial incentives (e.g. Feed in Tariff payments).
+    </string>
+
+  <string name="pv_meter2">
+\tAlthough not directly part of the PV system, where required in order to enable payment on exported electricity, an approved kWh export meter with appropriate reading capabilities may be required. The appropriate Energy Supplier should be contacted to find out any particular requirements and to arrange for its fitting.    </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="pv_temp">
+        \tModule temperature – An increase in module temperature results in a decrease in performance (eg 0.5% per 1\u00B0C above stc for a crystalline module). Sufficient ventilation must be provided behind an array for cooling (typically a minimum 25mm vented air gap to the rear). For building integrated systems, this is usually addressed by the provision of a vented air space behind the modules. On a conventional pitched roof, batten cavity ventilation is typically achieved by the use of counterbattens over the roof membrane and by the installation of eaves and ridge ventilation.
+    </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="pv_shade1">
+\tFor systems connected to multiple inverters, or a single inverter with more than one MPP, it is acceptable to do a separate calculation of SF for each sub array.
+\n\tStand as near as possible to the base and centre of the proposed array, e.g. through an upstairs window, unless there is shading from objects within 10m (e.g. aerials, chimneys, etc.), in which case the assessment of shading must be taken from a position more representative of the centre and base of the potentially affected array position.
+\n\tLooking due south (irrespective of the orientation of the array), draw a line showing the uppermost edge of any objects that are visible on the horizon (either near or far) onto the sunpath diagram
+\tOnce the horizon line has been drawn, the number of segments that have been touched by the line, or that fall under the horizon line shall be counted, in the following example you can see there are 11 segments covered or touched by the horizon line.
+\n\tThe total number of segments are multiplied by their value (0.01) and the total value shall be deducted from 1 to arrive at the shading factor.
+    </string>
+
+    <string name="pv_shade2">
+\tAs noted previously, shading from objects adjacent to the array (for example: vent pipes, chimneys, and satellite dishes) can have a very significant impact on the system performance. Where such shading is apparent, either the array should be repositioned out of the shade zone, or where possible the object casting the shade should be relocated.
+\n\tIn addition, any objects on the horizon diagram that are 10m or closer to any part of the array,  b. shall have a shade circle added to the diagram to reflect the severe impact that these items may have on the array performance.  Where there are multiple objects within 10m, then multiple circles shall be drawn – one for each object. The shade circle shall have a radius equal to the height of the object. The shade circle should be located so that the apex of the circle sits on the highest point of the shade object.
+    </string>
+
+        <string name="pv_shade3">
+\tShade assessments should include the phrase: “This shade assessment has been undertaken using the standard MCS procedure - it is estimated that this method will yield results within 10\u0025 of the actual annual energy yield for most systems.”
+
+
+    </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="pv_workseq1">
+\tAll d.c. wiring should if possible be completed prior to installing a PV array. This will allow effective electrical isolation of the d.c. system (via the d.c. switch-disconnector and PV module cable connectors) while the array is installed; and effective electrical isolation of the PV array while the inverter is installed.
+\n\tThis should be carried out in such a way that it should never be necessary for an installer to work in any enclosure or situation featuring simultaneously accessible live PV string positive and negative parts.
+    </string>
+
+        <string name="pv_workseq2">
+ \tWhile the installer will be handling live cables during the subsequent module installation, because the circuit is broken at the d.c. switch-disconnecter, there is no possibility of an electric shock current flowing from the partially completed PV string. The maximum electric shock voltage that should ever be encountered is that of one individual PV module.
+    \n\tWhere it is not possible to pre-install a d.c. isolator (eg a new-build project where a PV array is installed prior to the plant room being completed), cable ends/ connectors should be put temporarily into an isolation box and suitably labelled (see DC Junctioning).Cables are to be well supported, especially those cables exposed to the wind. Cables must be routed in prescribed zones or within mechanical protection, fully supported / cable tied (using UV stabilised ties) and they must also be protected from sharp edges.
+    </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="pv_wind1">
+\tThe manufacturer’s instructions should always be observed when designing a PV array mounting structure. In particular, attention shall be paid to the clamping zones as prescribed by each manufacturer as these will often vary. For each site the imposed wind and snow loads should be derived using the procedures within Eurocode-1.
+
+    </string>
+
+    <string name="pv_wind2">
+\n\tIn determining the appropriate pressure coefficient to use in calculations, the location of the PV array on the roof needs to be determined as some, or all, of the array may be in the “Edge Zone” as defined in BS EN 1991-1. Pressure coefficients for the Edge Zone will be higher than those in the Central Zone of the roof. BRE digest 489 and the other sources listed above include pressure coefficient values for both Edge and Central zones.
+\n\tA <b>safety factor</b> of 1.35 should be applied to the derived wind and snow loads and a factor of 1.0 to the dead load (self-weight). Load calculations shall be undertaken by a suitably competent person.
+    </string>
+
+        <string name="pv_wind3">
+<i>Note</i>: Many standard above roof systems for pitched roofs suggest a screw layout that conflicts with the requirements of Eurocode 5 to keep fixings a certain number of screw diameters away from the rafter edge and each other. In such cases one solution is to fix the mounting bracket to a timber noggin fitted between the rafters. Alternatively, the fixing resilience can be determined from test data.
+    </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="pv_roof1">
+\tAll fixing and flashing components used to mount and make weather-tight the solar roofing product must be packaged and listed as part of a complete kit that includes the PV module. The MCS installer must ensure that the system is installed to comply with the manufacturer’s instructions. The weather tightness of the PV system should be the same or better than the roof or cladding systems they are replacing and should not adversely affect the weather tightness of the surrounding covering.
+    </string>
+    <string name="pv_roof2">
+\tAll fixing and flashing components used to mount and make weather-tight the PV system must be specifically approved to work together (e.g. supplied and listed as a kit of parts) and listed to work with either the named PV module, or listed as a universal type where PV module type is immaterial to the performance of the system. The MCS installer must ensure that the system is installed to comply with the manufacturer’s instructions for both the mounting system and the PV module.
+    </string>
+    <string name="pv_roof3">
+\t All components used to mount the system must be specifically approved to work together or be listed as universal components. The mounting system must also be listed to work with either the named PV module, or listed as a universal type where PV module type is immaterial to the performance of the system. The MCS installer must ensure that the system is installed to comply with the manufacturer’s instructions for both the mounting system components and the PV module. Systems attached to tile roofs should be designed and installed such that the fixing brackets do not displace the tiles and cause gaps more than naturally occurs between the tiles. Fixing methods must not subject roof coverings to imposed loads which may degrade their primary purpose of maintaining weather-tightness.
+    </string>
+    <string name="pv_roof4">
+\tTiles or slates removed for fixing a mounting bracket should be re-attached to include a means of mechanical fixing. Historically, some mounting systems on slate or tile roofs have relied on a simple “through bolt” approach. However, this fixing method has the potential for the fixing bolts or sealing washer cracking the slates/tiles beneath them. It can also present difficulties with ensuring the long term weather tightness and durability of the roof penetration. It is good practice to notch tiles when fixing a roof bracket
+    </string>
+    <string name="pv_roof5">
+\tThe roof underlay should be inspected for damage during installation works. Any damage should be repaired or the underlay replaced as necessary. Damaged underlay will not provide an effective weather and air barrier and can affect weather tightness and the wind loads imposed on the roof cladding. Site work should include verification to confirm that all the design requirements have been satisfied and that the roof covering has not been adversely affected by the installation work.
+    </string>
+    <string name="pv_roof6">
+\tUnless specifically designed to do so , systems should be kept away from the roof perimeter.  For a domestic roof, a suitable minimum clearance zone is around 40-50cm.   The requirement to keep an arrays away from a the edge of a roof is suggested because:     </string>
+    <string name="pv_roof7">
+<i>Note</i>: on many roofs a 50cm gap from the edge will still mean that PV modules are fitted in the “Edge Zone” as defined in BS EN 1991-1 where higher pressure coefficients need to be implemented due to the higher imposed wind loads.
+    </string>
+    <string name="pv_roof8">
+\t<b>Cable penetrations</b> through the roof should not affect the weather tightness of the roof and should be durably sealed to accommodate the movement and temperatures expected. The use of a purpose-made product is an example of a durable means to achieve this. Cable penetrations through underlay should be achieved using purpose-made products or, if taken through a lap in the underlay, the cable should be carefully routed, clipped and tensioned so as to leave a minimal residual gap in the underlay lap joint.
+\n\t<b>Thermal expansion</b> should be considered when installing larger arrays. The module and mounting system manufacturer should be consulted to determine the maximum array width and continuous rail length that can be permitted without the need for an expansion gap.
+\n\tSome PV array mounting systems rely on securing the array to the <b>metal roof cladding</b>. In such circumstances, the adequacy of the roof covering to transfer all additional loads back to the supporting structure should be verified. This should include consideration of all elements of the roof construction that could be affected by the additional loading. Calculations will include consideration of the array configuration (pitched or parallel to the roof) and the type, quantity and locations of PV array fixings.
+    </string>
+
+
+    <string name="st_access">
+        \tAccess to the collector location will be required during installation, at future inspections and for maintenance. Typical obstacles include house-width conservatories, power/phone lines, porches, dormers, etc. since safe access methods can be obstructed both at low level or high. The requirement for cleaning can normally be expected to be a low priority at collector pitches of greater than 20 degrees, but should be considered in exceptional conditions. Availability of skylights of sufficient size can simplify future inspections.
+\n\tCritical solar system components such as pressure safety valves should not be located in inaccessible locations, particularly if the maintenance regime requires these to be inspected.
+\n\tOther workers who may visit the roof in the future could also be considered i.e. repairs to the roof, TV aerials, and chimney sweeping. Purpose built, non-corrosive steps are commercially available and are designed to provide permanent access on to roof pitch. An alternative, especially for flat roofs, is a cable fastening line for personal harnesses.
+\n\t<b>New build:</b>Where thick layers of ceiling insulation are expected in roof voids behind the collector location, a walkway can be constructed above the insulation.
+\n\t<b>Existing:</b>  A site visit is required in order to inspect roof voids, the roof condition and clearances for equipment. Externally, the terrain should be checked for stability as well as above for loose roof tiles and overhead cables, etc. Heights of over two storeys should be approached with particular caution.
+               </string>
+
+<string name="st_auxheat">
+    \tSolar water heating is almost exclusively used to pre-heat DHW and not for space heating. Auxiliary heating is required because of the variable nature of solar irradiation through the day and the seasons. Auxiliary heat sources are fitted downstream of the solar pre-heat storage in order to allow the variable temperature of the pre-heated water to be best controlled. This placement also ensures that the auxiliary heat sources do not interfere with heat transfer from the primary circuit. An automatic gas/oil/electric auxiliary heat source downstream of a solar pre-heat store should preferably be controlled with a temperature interlock. In particular, when the stored, solar heated water has reached the intended target temperature, then the auxiliary heat source should automatically switch off and not be called to add extra heat above the target temperature.
+\n\tMany DHW appliances require specialist knowledge and inspection before their suitability for solar pre-heating can be determined.
+\n\tNormally the best whole system performance is achieved by complete replacement of existing DHW heat sources to ensure correct integration. This is the usual choice where the existing DHW is provided from a stored water arrangement. This also has the advantage that best practice for DHW provision can be achieved at the same time. Where the DHW source is a water store that is integrated with another device (such as a combi boiler) or fully instantaneous (such as an electric shower), then it is more common to design a system which retains these appliances.
+\n\t<b>New build:</b> There is a range of ‘solar-ready’ DHW generators that can be installed in new dwellings independently of a solar primary system. These may include twin-coil stores that combine pre-heat and DHW into one unit; the lower solar coil is either left unconnected (as with an electric based store) or it is temporarily connected in series with the top boiler coil with the advantage of a rapid re-heat. However it is more common to fit a coherent and complete functional solar system with DHW generator simultaneously.
+\n\t<b>Existing:</b>  It is essential to confirm, by on-site test, that existing DHW generators are capable of achieving 60ºC at all foreseeable rates of secondary flow. Using a thermometer and weir gauge, the rate of various DHW flows can be measured against temperature at the outlets to establish the ability to sterilise to 60ºC.
+</string>
+
+  <string name="st_losses1">
+        \t<b>Parasitic losses</b> occur where energy is simultaneously used for other devices during the operation of the circuit. An example is a pump circulating the primary fluid from the collector. Parasitic losses are generally from electrically powered devices. <b>Standing losses </b>occur where the energy used for powering dependent devices is continuous regardless of whether heat energy is being transferred. Standing losses can be either electrical (e.g. safety temperature displays) or thermal (e.g. heat from a hot water store).The combined effect of electrical parasitic and standing losses can be a total loss equivalent to over 8\u0025 of the total solar thermal energy.
+    </string>
+
+    <string name="st_losses2">
+        \tIt is possible to reduce the parasitic losses by matching <b>pump power</b> to the minimum required for circulation, using variable speed inverter-driven pumps or putting insulation around the pump casing (where permitted by the manufacturer). The electrical input power of the primary pump in the solar system should preferably use no higher than 2\u0025 of the peak thermal power of the collector. By using a differential thermostatic control (DTC) pump controller, it is possible to modulate pump speed in relation to temperature and minimise parasitic losses.
+\n\tCertain heat losses from a solar water heating system are recoverable during the <b>space-heating</b> season. The recoverable part can be considered as 100\u0025 if the component is installed in the heated space. Some 40\u0025 is normally recovered if the pump is installed in an un-heated space but none if the component is installed outside. Therefore, the pump and its control device should be located within the normally heated space of the dwelling.
+\n\tWhere pipes and cables pass through the building’s insulated structure, these services should be designed to minimise risk of <b>air infiltration</b>.
+        </string>
+
+    <string name="st_occupant">
+        \tThe way DHW is used greatly affects the solar contribution, no matter what level of equipment is installed. Is the household likely to have a morning peak, evening peak or continuous all day demand? Will there be significant vacant periods i.e. holidays or during relocation? Continuous, even demands require less pre-heat storage, whereas often absent households require over-sized storage. High DHW use per person for example, with power showers or increased laundry use, can make best use of proportionally larger solar collectors. Certain hot water appliances may not accept pre-heated water e.g. washing machines or dishwashers. These are best eliminated from design calculations. A solar system can be designed for a high annual solar fraction or high usability factor (best value). Clients are best consulted and the results recorded.
+\n\tThe DHW usage pattern of a household should be anticipated before selecting secondary heating equipment.
+\n\t<b>New build:</b> The intended occupancy and their DHW use can be derived from discussion with clients and use of standard references. Where unknown, DHW use at 50ºC per day can be assumed as (38 + 25N) litres per day where N is the number of occupants.
+\n\t<b>Existing:</b>  A site visit to inspect DHW appliances and a discussion with occupants would establish the intended DHW usage pattern.
+        </string>
+
+    <string name="st_pitch">
+        \tThe collector fixing surface can be a pitched roof, flat roof, vertical wall, balustrade or ground mount. Many UK roofs provide close to the optimum pitch, and with a reasonable leeway from south-east to south-west, losses of only 10\u0025 of the annual energy yield are typical. This can be accommodated by collector ‘oversizing’; alternatively , a loss of performance can be declared to the user.
+\n\tWhere an excess of 10\u0025 less than optimum is predicted i.e. approaching east, west or on steep pitches, the customer should be informed in writing prior to commencing work that the suggested site is ‘significantly less than optimum‘ and that an ‘oversized’ collector is recommended of at least 20\u0025 greater absorber area.
+\n\tIn the case of an unfavourable pitch or orientation, collectors are available where the absorber can be rotated within the format of the collector glazing. This is frequently possible with glass tube formats where cylindrical absorber shapes add some advantage. Adjacent tubes should not overshadow each other and typically a maximum rotational gain of 20 degrees is available. The alternative of unequal spacer blocks, or additional frames on pitched roofs, is rarely cost effective.
+\n\tFor flat roofs or ground-mounted systems, a metallic frame can be used to achieve optimum positions; however structural loading should be carefully considered. The use of multi-position collector arrays can be considered where available locations are too small or unfavourable i.e. east/west pitches, although this would require separate and independent circulation controls to avoid unwanted loss of heat through the colder aspect.
+\n\tWhere a choice of pitch is available, consideration should be given to the build-up of dust on the collector surfaces. A nominal 5\u0025 loss of energy yield is expected in all conditions without cleaning: however this will increase at pitches of less than 20 degrees. In areas where high build-up is expected i.e. from sea salt, high density traffic or tree sap, the problem will be exacerbated with collectors set at a low pitch.
+\n\t<b>New build:</b> The available pitch and orientation of collector locations can usually be derived from typical scale drawings. It may still be possible to design the building to optimise SDHW yield i.e. pitched and between south-east and south-west. Rooms-in-roofs can be constructed with purpose-built service routes from the solar collecting surface to the solar storage location. The use of pre-insulated and unjointed flexible metal pipe can be an aid in difficult locations.
+\n\t<b>Existing:</b>  A site visit using a compass and protractor will establish the best locations. Photographs accompanied by scale drawings can also be used.
+        </string>
+
+
+<string name="st_preheatloco">
+    \tFor most dwellings, the notional extra physical space required for pre-heat storage is equivalent to the number of occupants multiplied by at least 0.05m\u00B3 . This includes space for appropriate insulation and pipe connections. However, further space should be allowed for primary system controls and insulated pipes. Where a twin-coil store is used, the DHW store size is combined with the pre-heat store into one unit; this requires extra space of approximately 2.0m by 1.0m by 0.8m.
+
+\n\tThe solar pre-heat store must be located where it can readily connect with the solar collecting surface via insulated primary pipes and sensor cables. It should be within the normally heated area of the dwelling.
+
+\n\tGenerally, it is necessary to have an accessible mains electric power supply in the solar store location to allow the fitting of accurate temperature indicators. In addition, the store needs to be protected from frost. The anticipated weight of a pre-heat store is at least 60kg multiplied by the number of occupants. Accessibility for maintenance should also be considered.
+
+\n\t<b>New build:</b> Pre-heat storage locations can easily be designed in a dwelling at its planning stage.
+
+\n\t<b>Existing:</b> An on-site survey will be needed to establish if an existing airing cupboard is suitable. Particular care should be taken with floor supports. Unheated voids such as roofs should be carefully checked for future access, floor strength and frost protection.
+
+</string>
+
+    <string name="st_roof">
+    \n\t<b>New build:</b> An ideal location for a solar collecting surface would have a readily removable roof covering (e.g. tiles) for simple structural and pipe/cable access. A clearance gap of no less than two metres to each side of the intended collector position would give suitable working space during installation and permit ease of future maintenance. Consideration of interstitial condensation may be required where humid air is expected to rise towards the pipe entry location from the collector. Where a future solar collector is planned, purpose-made structural mounting points can be provided in advance, especially where the roof covering is not likely to be easy to remove.
+\n\t<b>Existing:</b>  A site visit is invaluable in anticipating existing damage to roof coverings and sub-structure. Where the roof structure has warped over time, difficulties can be experienced in integrating a rigid collector in-roof.
+</string>
+
+    <string name="st_sensors1">
+        \tA simple, single thermostat is not suitable for controlling SDHW since this does not compare the temperatures of the collector and its store. Sensors for solar system controls, such as a DTC, have to display good accuracy ( ± 1.0ºC) across a wide measurement range whilst maintaining a good thermal contact with the fluid being measured. They should be insulated against change in ambient temperatures and firmly clamped to prevent accidental displacement. They should also be responsive to rapid changes, and should ideally be placed in purpose-made pockets immersed in the fluid. A coating of instrument grease can be used to withstand ingress of moisture that can cause a sensor to fail.
+
+\n\tThe SDHW primary circuit should be controlled by a temperature-sensitive device accurately measuring the difference in temperature between the absorber and the pre-heat storage or heat exchanger.  Advanced DTCs use temperature-linked speed control of the circulating pump to maintain higher efficiency heat transfer.
+
+The <b>differential</b> is the difference between switching points or thresholds. This is adjusted for an individual installation according to the heat loss of the transfer circuit and heat exchanger configuration. A long distance between a collector and store would require a higher differential than a short run. The <b>hysteresis</b> is the difference in switching variance around a given point: this can differ according to the direction of movement of temperature (i.e. rising or falling around the switching point). It can be adjusted to avoid unnecessary short cycling or hunting of a pump. A typical differential would be between 5ºC and 10ºC, while the hysteresis would be between 2ºC and 5ºC.
+        </string>
+
+     <string name="st_sensors2">
+        <b>Primary Circuit Fluid Levels</b>
+	\n\t A pressure gauge, level mark or test-point in a primary vessel
+\n<b>Pressure</b>
+	\n\tHigh pressure can be a safety hazard, low pressure reduces efficiency
+\n<b>Circulation Rate</b>
+	\n\tThis indicates sufficient heat extraction will occur
+\n<b>Temperatures</b>
+	\n\tAbsorber, pre-heat storage, DHW store
+\n<b>Irradiation Levels</b>
+	\n\tRecommended, but not required
+\n<b>Warning Indicators</b>
+	\n\tAudible or flashing indicator should enable a rapid diagnosis of the error and required action
+        </string>
+
+    <string name="st_shading">
+        \tThere should be no shading. In predominantly shaded locations, 50\u0025 of the total solar irradiation can be expected to be lost. Partial shading, such as shadows of trees, chimneys, higher buildings, etc. can also have adverse effects with localised overheating of the fluid in a collector – or a loss of heat transfer if the sensors are shaded.
+
+\n\tWhere shading is unavoidable, a shadow greater than 10\u0025 of the collector area passing completely across the collector in less than an hour between May and October can be considered acceptable. However, if the shadowing lasts in excess of two hours, the customer should be informed in writing – prior to commencing work – that the suggested site is ‘significantly shaded’ and that an ‘oversized’ collector is recommended, at least 20\u0025 greater in absorber area than in an unshaded location.
+
+\n\tConsideration should be given to a controller capable of switching on the pump for a fixed, limited period once every  30 minutes, subject to temperature control. This can overcome unfavourable sensor positions during shading. Remember that the track of the sun will vary daily from the horizon, peaking to a zenith at midday GMT. In addition, the angle of the zenith will alter significantly from winter solstice to summer. Allowance for the future growth of nearby trees should be considered.
+
+\n\t<b>New build:</b> Shading can be complex to model, although many design software packages now allow shading to be readily calculated. Ideally, the design would ensure a layout and orientation that minimises shading risks and would normally avoid shading that required oversizing. Dedicated commercial software packages for SDHW designers are available. A simple manual method uses graph paper to represent the horizon from east to west with objects plotted in size pro-rata to their distance from the collector position. The remaining area of sky shown on the graph paper gives an indication of direct irradiation.
+
+\n\t<b>Existing:</b> A site visit is a prerequisite for assessing shading. A compass and a transparent sheet indicating the tracks of the sun seasonally and daily allow a thorough examination even in cloudy conditions. Every effort should be made to take the shading survey at the collector position, in order to avoid parallax errors arising from estimates made on the ground or at upper windows. Anecdotal comments from occupiers regarding the roof shading should be taken with caution and should be corroborated.
+
+    </string>
+
+    <string name="st_tools">
+        <b>Access</b>
+\n\t\tCurrent HSE recommendations require specialised access equipment, including eaves-level platforms, steel scaffold or towers, cranes or hoists.
+
+\n<b>Seed pumps</b>
+\n\t\tThese are special high-flow pumps designed to  rapidly fill solar primary systems and remove air or steam locks.
+
+\n<b>Hand pumps</b>
+\n\t\tFor injecting extra antifreeze initially or during maintenance.
+
+\n<b>Refractrometers</b>
+\n\t\tFor sampling antifreeze concentrations (alternatively use hydrometers).
+
+\n<b>pH testers (litmus paper)</b>
+\n\t\tThese are usually coloured impregnated strips which can identify loss of corrosion protection.
+
+\n<b>High temperature brazing</b>
+\n\t\tThis is used where soft solder joints are unsuitable at stagnation temperatures.
+
+\n<b>Covers</b>
+\n\t\tThese are to stop irradiation reaching the absorber.
+    </string>
+
+    <string name="st_waterp">
+        \tThe intended DHW pressure and type of cold feed must be determined early in the design process as certain choices greatly influence the formats of pre-heat storage and DHW generators. In particular, a choice between low pressure (cistern-fed) or mains pressure should be made early. The peak flow-rates of showers and the potential effects of thermostatic mixing valves need to be taken into account. Private water supplies require extra care, in the light of potential summer droughts and intermittent loss of supplies. The integration of solar heating into a dwelling should not unduly impair the secondary water pressure.
+
+\n\t<b>New build:</b>Secondary water pressure can be determined for a dwelling at its planning stage.
+
+\n\t<b>Existing:</b>  A site inspection and measurement of dynamic water pressure will be needed. Specialised tools may be required such as a weir gauge, pressure gauge, stopwatch and measuring jug. By examining the water pressure at one tap within the dwelling while using water from another, it is possible to compare the time to fill a given volume (this gives the flow rate) with the pressure maintained elsewhere in the house.
+
+    </string>
+
+    <string name="st_wquality">
+        \tWhen incoming cold water is heated, it can produce limescale (due to water hardness). In some areas this may result in a build-up of a hard crust inside hot water stores causing a gradual decrease in the storage, circulation and heat exchange efficiency. Unwanted bacteria can grow in all cold and hot water systems, particularly under tepid temperature conditions with porous materials. The acidity, particularly of private water supplies in upland areas, can aggressively dissolve certain metals. Water quality must be assessed for each site before selecting secondary heating equipment.
+
+\n\t<b>New build:</b>Water hardness can be ascertained from maps or from utility companies. Water quality reports based on postcodes are also available. Samples from private supplies will need to be analysed at a laboratory.
+
+\n\t<b>Existing:</b>  A site visit is required and this is best done by a suitably informed and trained person. The inspection will cover the cold water supply, secondary storage, distribution and appliances. Bacterial risk assessments are best recorded and summarised into low, medium and high risks according to the age of equipment, length of pipe runs, and the ability of auxiliary heat sources to achieve sterilisation at high flow rates.
+
+    </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_camera">camera</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_camera_activity">camera_activity</string>
+    <string name="title_activity_shade">shade</string>
+
+    <string name="pv_glossary">
+
+        <b>a.c. Side </b>\n
+Part of a PV installation from the a.c. terminals of the PV inverter to the point of connection of the PV supply cable to the electrical installation
+\n<b>d.c. Side </b>\n
+Part of a PV installation from a PV cell to the d.c. terminals of the PV inverter
+\n<b>Distribution Network Operator (DNO)</b>\n
+The organisation that owns or operates a Distribution Network and is responsible for confirming requirements for the connection of generating units to that Network
+\n<b>Earthing</b>\n
+Connection of the exposed-conductive-parts of an installation to the main earthing terminal of that installation
+\n<b>Electricity Network </b>\n
+An electrical system supplied by one or more sources of voltage and comprising all the conductors and other electrical and associated equipment used to conduct electricity for the purposes of conveying energy to one or more Customer’s installations, street electrical fixtures, or other Networks
+\n<b>Equipotential Zone </b>\n
+Where exposed-conductive parts and extraneous-conductive parts are maintained at substantially the same voltage
+\n<b>Exposed-Conductive-Part</b>\n
+Conductive part of equipment which can be touched and which is not normally live, but which can become live when basic insulation fails
+\n<b>Extraneous-Conductive-Part</b>\n
+A conductive part liable to introduce a potential, generally Earth potential, and not forming part of the electrical system
+\n<b>I<sub>sc</sub> (stc) Short-Circuit Current </b>\n
+Short-circuit current of a PV module, PV string, PV array or PV generator under standard test conditions
+\n<b>Islanding</b>\n
+Any situation where a section of electricity Network, containing generation, becomes physically disconnected from the DNOs distribution Network or User’s distribution Network;  and one or more generators maintains a supply of electrical energy to that isolated Network
+\n<b>Isolating Transformer </b>\n
+Transformer where the input &amp; output windings are electrically separated by double or reinforced insulation
+\n<b>Isolation </b>\n
+A function intended to cut off for reasons of safety the supply from all, or a discrete section, of the installation by separating the installation or section from every source of electrical energy
+\n<b>Isolator</b>\n
+A mechanical switching device which, in the open position, complies with the requirements specified for the isolating function. An isolator is otherwise known as a disconnector
+\n<b>Lightning Protection </b>\n
+A means of applying protective measures to afford protection to persons, property and livestock against the effects of a lightning strike
+\n<b>PME – Protective Multiple Earthing </b>\n
+An earthing arrangement, found in TN-C-S systems, in which the supply neutral conductor is used to connect the earthing conductor of an installation with Earth, in accordance with the Electrical Safety, Quality and Continuity Regulations 2002
+\n<b>Protective Equipotential Bonding - (also referred to as Equipotential Bonding)</b>\n
+Electrical connection maintaining various exposed-conductive-parts and extraneous-conductive-parts at substantially the same potential
+\n<b>PV a.c. Module </b>\n
+Integrated module/convertor assembly where the electrical interface terminals are a.c. only. No access is provided to the d.c. side
+\n<b>PV Array </b>\n
+Mechanically and electrically integrated assembly of PV modules, and other necessary components, to form a d.c. power supply unit
+\n<b>PV Array Cable </b>\n
+Output cable of a PV array
+\n<b>PV Array Junction Box </b>\n
+Enclosure where all PV strings of any PV array are electrically connected and where protection devices can be located
+\n<b>PV String</b>\n
+A number of PV modules are connected in series to generate the required output voltage
+\n<b>PV Cell </b>\n
+Basic PV device which can generate electricity when exposed to light such as solar radiation
+\n<b>PV Charge Controller </b>\n
+A device that provides the interface between the PV array and a battery
+\n<b>PV d.c. Main Cable </b>\n
+Cable connecting the PV array junction box to the d.c. terminals of the PV convertor
+\n<b>PV Grid-Connected System </b>\n
+A PV generator operating in ‘parallel’ with the existing electricity network
+\n<b>PV Installation</b>\n
+Erected equipment of a PV power supply system
+\n<b>PV Inverter (also known a PV Convertor)</b>\n
+Device which converts d.c. voltage and d.c. current into a.c. voltage and a.c. current
+\n<b>PV Kilowatts Peak (kWp) </b>\n
+Unit for defining the rating of a PV module where kWp = watts generated at stc
+\n<b>PV Module Maximum Series Fuse </b>\n
+A value provided by the module manufacturer on the module nameplate &amp; datasheet (a requirement of IEC61730-2)
+\n<b>PV Module </b>\n
+Smallest completely environmentally protected assembly of interconnected PV cells
+\n<b>PV MPP Tracker (MPPT) </b>\n
+A component of the d.c. input side of an inverter designed to maximise the input from the array by tracking voltage and current
+\n<b>PV Self-Cleaning </b>\n
+The cleaning effect from rain, hail etc. on PV arrays which are sufficiently steeply inclined
+\n<b>PV String Cable</b>\n
+Cable connecting PV modules to form a PV string
+\n<b>PV String Fuse</b>\n
+A fuse for an individual PV string
+\n<b>PV Supply Cable </b>\n
+Cable connecting the AC terminals of the PV convertor to a distribution circuit of the electrical installation
+\n<b>PV Standard Test Conditions (stc) </b>\n
+Test conditions specified for PV cells and modules (25°C, light intensity 1000W/m 2 , air mass 1.5)
+\n<b>V<sub>oc</sub></b>\n
+Open circuit d.c. Voltage
+
+    </string>
+
+</resources>
